@@ -1,1 +1,1 @@
-# Test plugin for Redmine
+# Test plugin for Redmine [![Build Status](https://secure.travis-ci.org/sharpyfox/ci_test.png)](http://travis-ci.org/sharpyfox/ci_test)
