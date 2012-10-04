@@ -12,7 +12,6 @@ git submodule update --init --recursive
 cp -r ~/builds/*/$REPO_NAME vendor/plugins/$PLUGIN_DIR
 
 #export BUNDLE_GEMFILE=$TARGET_DIR/Gemfile
-
 bundle install --without=$BUNDLE_WITHOUT
 
 echo "creating $DB database"
