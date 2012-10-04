@@ -3,7 +3,7 @@
 # Git repo of the Redmine
 
 # Prepare Redmine
-git clone --depth=100 $MAIN_REPO $TARGET_DIR
+#git clone --depth=100 --quiet $MAIN_REPO $TARGET_DIR
 #cd $TARGET_DIR
 #git checkout $REDMINE_GIT_TAG
 #git submodule update --init --recursive
