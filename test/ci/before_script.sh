@@ -3,10 +3,10 @@
 # Git repo of the Redmine
 
 # Prepare Redmine
-#git clone --depth=100 --quiet $MAIN_REPO $TARGET_DIR
-#cd $TARGET_DIR
-#git checkout $REDMINE_GIT_TAG
-#git submodule update --init --recursive
+git clone --depth=100 --quiet $MAIN_REPO $TARGET_DIR
+cd $TARGET_DIR
+git checkout $REDMINE_GIT_TAG
+git submodule update --init --recursive
 
 # Copy over the already downloaded plugin 
 #cp -r ~/builds/*/$REPO_NAME vendor/plugins/$PLUGIN_DIR
