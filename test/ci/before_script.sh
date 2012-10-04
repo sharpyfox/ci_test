@@ -14,7 +14,6 @@ cp -r ~/builds/*/$REPO_NAME vendor/plugins/$PLUGIN_DIR
 #export BUNDLE_GEMFILE=$TARGET_DIR/Gemfile
 bundle install --without=$BUNDLE_WITHOUT
 
-
 echo "creating $DB database"
 case $DB in
   "mysql" )
@@ -23,7 +22,7 @@ case $DB in
 test:
   adapter: mysql
   database: redmine_test
-  username: postgres
+  username: root
 EOF
     ;;
   "mysql2" )
