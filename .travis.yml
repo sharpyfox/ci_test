@@ -8,7 +8,7 @@ rvm:
 gemfile: non-existent-gemfile
 
 before_install:
-  # Git repo of the ChiliProject/Redmine
+  # Git repo of the Redmine
   - export MAIN_REPO="git://github.com/redmine/redmine.git"
   # Name of your plugin's repo
   - export REPO_NAME=ci_test
@@ -16,7 +16,7 @@ before_install:
   - export PLUGIN_NAME=ci_test
   # Git tag for redmine version
   - export REDMINE_GIT_TAG=1.4.1
-  # Arguments passed to bundle install on ChiliProject's Gemfile
+  # Arguments passed to bundle install on Redmine's Gemfile
   #- export BUNDLE_ARGS="--without development sqlite"
   - export TARGET_DIR="$HOME/redmine"
 before_script: "./test/ci/before_script.sh"
