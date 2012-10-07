@@ -2,7 +2,7 @@
 
 # Git repo of the Redmine
 
-bundle update
+gem --system 1.6.2
 
 # Prepare Redmine
 git clone --depth=100 --quiet $MAIN_REPO $TARGET_DIR
